@@ -88,11 +88,17 @@ a {
 	color: gray;
 }
 
+h3 {
+	font-size: 28px;
+}
+
 .quadrant2-services {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
+	font-size: 18px;
+	text-align: center;
 }
 
 .quadrant2-img {
@@ -117,16 +123,73 @@ a {
 	display: flex;
 	flex-direction: column;
 	background-color: #E5E7EB;
-	text-size: 36px;
+	font-size: 36px;
 	color: #1F2937;
 	font-style: italic;
+	justify-content: center;
+	padding: 16x;
+}
+
+.quadrant3-container {
+	display: flex;
+	flex-direction: column;
+	margin: 0 300px;
+}
+
+.quote {
+	display: flex;
+	justify-content: center;
+	font-size: 32px;
+	padding: 48px 48px 0 48px;
+}
+
+.attribution {
+	display: flex;
+	justify-content: flex-end;
+	font-size: 28px;
+	font-weight: bold;
+	padding: 0 48px;
+}
+
+.quadrant4 {
+	display: flex;
+	padding: 32px;
+	margin: 32px 16px;
+	justify-content:space-around;
+	align-items: center;
+	color: white;
+}
+
+.quadrant4-container {
+	display: flex;
+	padding: 12px;
+	background: #3882F6;
+	border-radius: 8px;
+	justify-content: space-between;
+	align-items: center;
+	padding: 32px;
+}
+
+.quadrant4-text {
+	display: flex;
+	background: #3882F6;
+	flex-direction: column;
+	border-radius: 8px;
+	margin: 12px;
+}
+
+.quadrant4-button {
+	display: flex;
+	border: 3px solid white;
+	padding: 12px;
+	margin: 32px;
 }
 
 .footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-color: #E5E7EB;
+	color: white;
 	font-size: 18px;
-	
+	background: #1F2937
 }
